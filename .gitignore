@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets
+aclImdb/
+*.csv
+*.tsv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# OS files
+.DS_Store
