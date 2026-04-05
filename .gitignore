@@ -1,16 +1,24 @@
-# Dataset
-aclImdb/
-aclImdb_v1.tar.gz
-
-# Python & Notebook standard
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.pytest_cache/
+# Virtual environments
+.venv/
 venv/
 env/
 .env
 
-# Large model files (optional, remove if you *want* to upload models to github, but GitHub has file size limits)
+# Datasets
+aclImdb/
+aclImdb_v1.tar.gz
+*.csv
+*.tsv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS files
+.DS_Store
+
+# Large model files
 *.joblib
 *.pkl
